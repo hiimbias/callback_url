@@ -42,6 +42,7 @@ def zalo_callback():
 def index():
     return "Welcome to Zalo OAuth Callback Handler! Please visit /oauth/callback to authorize your app."
 
+
 if __name__ == "__main__":
     port = 2111
     app.run(host='0.0.0.0', port=port, debug=True)
